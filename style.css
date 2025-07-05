@@ -13,6 +13,7 @@ body {
 }
 
 header {
+  height: 70px;
   background: #222;
   padding: 1rem 0;
   position: fixed;
@@ -80,7 +81,8 @@ section:not(#home) {
 
 #home {
   width: 100%;
-  padding: 120px 20px 80px 20px;
+  padding: 140px 20px 80px 20px;
+  padding-top: 90px;
   background: linear-gradient(to right, #1d2b64, #f8cdda);
   color: #fff;
   text-align: center;
